@@ -40,15 +40,19 @@ namespace Generics
             //Console.WriteLine("Maximum Float Number is :" + FindMaximumFloat.FindMaximumFloatNumber(1.49f, 7.23f, 9.16f));
 
             Console.WriteLine("--------------------------------------");
-            Console.WriteLine("1:Find The Maximum String Among:'Ramya','Daniel','Meena'");
-            Console.WriteLine("Maximum String is :" + FindTheMaximumString.FindMaximumString("Ramya","Daniel","Meena"));
+            //Maximum string at First Position
+            Console.WriteLine("1:Find The Maximum String Among:'Apple','Banana','Peach'");
+            Console.WriteLine("Maximum String is : " + FindTheMaximumString.FindMaximumString("Peach","Apple","Banana"));
 
             Console.WriteLine("--------------------------------------");
-            Console.WriteLine("2:Find The Maximum String Among: 'Daniel','Ajay','Charli'");
-            Console.WriteLine("Maximum String is :" + FindTheMaximumString.FindMaximumString("Daniel","Ajay","Charli"));
+            //Maximum String at Second Position
+            Console.WriteLine("2:Find The Maximum String Among: 'Apple','Peach','Banana'");
+            Console.WriteLine("Maximum String is : " + FindTheMaximumString.FindMaximumString("Apple", "Peach", "Banana"));
+
             Console.WriteLine("--------------------------------------");
-            Console.WriteLine("3:Find The Maximum String Among: 'Sam','Nelson','Harsha'");
-            Console.WriteLine("Maximum String is :" + FindTheMaximumString.FindMaximumString("Sam","Nelson","Harsha"));
+            //Maximum String at Third Position
+            Console.WriteLine("3:Find The Maximum String Among: 'Apple','Banana','Peach'");
+            Console.WriteLine("Maximum String is : " + FindTheMaximumString.FindMaximumString("Apple", "Banana", "Peach"));
 
             Console.ReadLine();
         }
